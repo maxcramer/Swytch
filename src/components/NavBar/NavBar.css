@@ -59,3 +59,15 @@
     cursor: pointer;
     color: lightgray;
 }
+
+@media (max-width: 768px) {
+    .navbar__navigation-items {
+        display: none;
+    }
+}
+
+@media(min-width: 769px) {
+    .navbar__toggle-button {
+        display: none;
+    }
+}

@@ -45,3 +45,9 @@ input {
     font-size: 17px;
     margin: 0;
 }
+
+@media (min-width: 796px) {
+    .side-drawer {
+        display: none;
+    }
+}

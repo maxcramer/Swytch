@@ -8,7 +8,7 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 const NavBar = props => (
     <header className="navbar">
         <nav className="navbar__navigation">
-            <div>
+            <div className="navbar__toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
             <div className="spacer"></div>
