@@ -28,11 +28,9 @@ class App extends Component {
   };
 
   render() {
-    let sideDrawer;
     let backdrop;
 
     if(this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
       backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
 
@@ -40,7 +38,7 @@ class App extends Component {
       <Router>
         <div id="app__main" className="App">
           <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
-          {sideDrawer}
+          <SideDrawer show={this.state.sideDrawerOpen}/>
           {backdrop}
           <div id="bellow__navbar">
             <div className="top__container">
