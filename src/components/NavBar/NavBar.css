@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 2px 7px lightgray;
+}
+
+.nav__item:hover {
+    cursor: pointer;
+    color: lightgray;
+}
