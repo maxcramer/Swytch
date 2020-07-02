@@ -21,11 +21,11 @@ class App extends Component {
           <div id="bellow__navbar">
             <div className="top__container">
               <VideoContainer />
-              <CheckoutDetails />
-            </div>
-            <div className="bottom__container">
-              <ProductInfo />
-              <CrowdFunding />
+              <div className="right_panel">
+                <CrowdFunding />
+                <ProductInfo />
+                <CheckoutDetails />
+              </div>
             </div>
           </div>
         </div>

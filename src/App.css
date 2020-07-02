@@ -1,7 +1,6 @@
-/* .App {
-  background-color: black;
-  color: white;
-} */
+.App {
+  margin-bottom: 200px;
+}
 
 .top__container {
   display: flex;
@@ -13,4 +12,10 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 50px;
+}
+
+.right_panel {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }

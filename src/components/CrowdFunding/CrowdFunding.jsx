@@ -5,7 +5,7 @@ import './CrowdFunding.css';
 class CrowdFunding extends React.Component{
     render() {
         return(
-            <div>
+            <div className="crowdfunding">
                 <h3>Funding Complete & Closed</h3>
                 <p>Raised £945,198 GDP from 2,096 backers</p>
                 <div id="prog__bar">
