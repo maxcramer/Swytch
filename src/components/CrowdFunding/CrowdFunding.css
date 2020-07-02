@@ -2,7 +2,8 @@
     border: 1px solid lightgray;
     padding: 5px 20px;
     text-align: center;
-    box-shadow: -2px 5px 5px darkgrey
+    box-shadow: -2px 5px 5px darkgrey;
+    margin-bottom: 10px;
 }
 
 .crowdfunding h3 {

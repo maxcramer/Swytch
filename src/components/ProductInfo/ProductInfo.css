@@ -5,3 +5,22 @@
     /* flex-wrap: wrap; */
     /* width: 70%; */
 }
+
+#discount {
+    font-weight: 900;
+    color: red;
+    margin: 0;
+    transform: rotate(16deg);
+    width: 35%;
+    position: absolute;
+    right: -309px;
+    top: 274px;
+    font-size: 22px;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
