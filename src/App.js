@@ -12,16 +12,32 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/BackDrop/BackDrop';
 
 class App extends Component {
+  state = {
+    sideDrawerOpen: false
+  }
+
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+    });
+  }
 
   render() {
-    
+    let sideDrawer;
+    let backdrop;
+
+    if(this.state.sideDrawerOpen) {
+      sideDrawer = <SideDrawer />;
+      backdrop = <Backdrop />;
+    }
 
     return (
       <Router>
         <div id="app__main" className="App">
-          <NavBar />
-          <SideDrawer />
-          <Backdrop />
+          <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
+          {sideDrawer}
+          {backdrop}
           <div id="bellow__navbar">
             <div className="top__container">
               <VideoContainer />
