@@ -3,11 +3,14 @@ import React from 'react';
 import './NavBar.css';
 
 import SearchBar from '../SearchBar/SearchBar';
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
 const NavBar = props => (
     <header className="navbar">
         <nav className="navbar__navigation">
-            <div></div>
+            <div>
+                <DrawerToggleButton />
+            </div>
             <div className="spacer"></div>
             <div className="navbar__navigation-items">
                 <ul>

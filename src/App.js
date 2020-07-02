@@ -8,6 +8,8 @@ import VideoContainer from '../src/components/VideoContainer/VideoContainer'
 import ProductInfo from '../src/components/ProductInfo/ProductInfo';
 import CheckoutDetails from '../src/components/CheckoutDetails/CheckoutDetails';
 import CrowdFunding from '../src/components/CrowdFunding/CrowdFunding';
+import SideDrawer from './components/SideDrawer/SideDrawer';
+import Backdrop from './components/BackDrop/BackDrop';
 
 class App extends Component {
 
@@ -18,6 +20,8 @@ class App extends Component {
       <Router>
         <div id="app__main" className="App">
           <NavBar />
+          <SideDrawer />
+          <Backdrop />
           <div id="bellow__navbar">
             <div className="top__container">
               <VideoContainer />
