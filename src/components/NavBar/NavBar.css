@@ -5,6 +5,8 @@ nav {
     padding: 20px 0px;
     border-bottom: 1px solid lightgray;
     box-shadow: 0 2px 7px lightgray;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .nav__item:hover {

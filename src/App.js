@@ -7,6 +7,7 @@ import NavBar from '../src/components/NavBar/NavBar.jsx'
 import VideoContainer from '../src/components/VideoContainer/VideoContainer'
 import ProductInfo from '../src/components/ProductInfo/ProductInfo';
 import CheckoutDetails from '../src/components/CheckoutDetails/CheckoutDetails';
+import CrowdFunding from '../src/components/CrowdFunding/CrowdFunding';
 
 class App extends Component {
 
@@ -15,14 +16,17 @@ class App extends Component {
 
     return (
       <Router>
-        <div id="app__main">
+        <div id="app__main" className="App">
           <NavBar />
           <div id="bellow__navbar">
             <div className="top__container">
               <VideoContainer />
               <CheckoutDetails />
             </div>
-            <ProductInfo />
+            <div className="bottom__container">
+              <ProductInfo />
+              <CrowdFunding />
+            </div>
           </div>
         </div>
       </Router>

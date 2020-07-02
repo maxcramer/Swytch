@@ -1,8 +1,16 @@
-.App {
-  text-align: center;
-}
+/* .App {
+  background-color: black;
+  color: white;
+} */
 
 .top__container {
   display: flex;
   flex-direction: row;
+}
+
+.bottom__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
 }
