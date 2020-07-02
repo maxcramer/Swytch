@@ -12,8 +12,8 @@ class CheckoutDetails extends React.Component {
                 <input type="text" placeholder="Email Address"/>
                 <div id="card__details">
                     <input type="number" placeholder="Card Number"/>
-                    <input type="text" placeholder="Expiration Date"/>
-                    <input type="text" placeholder="CVV"/>
+                    <input type="month" placeholder="MM/YYYY"/>
+                    <input type="number" placeholder="CVV"/>
                     <input type="text" placeholder="Name On Card"/>
                 </div>
             </div>
