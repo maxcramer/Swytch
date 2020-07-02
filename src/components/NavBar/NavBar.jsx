@@ -5,24 +5,19 @@ import './NavBar.css';
 import SearchBar from '../SearchBar/SearchBar';
 
 const NavBar = props => (
-    <header>
-        <nav>
-            <div className="nav__item">
-                Menu Item 1
+    <header className="navbar">
+        <nav className="navbar__navigation">
+            <div></div>
+            <div className="spacer"></div>
+            <div className="navbar__navigation-items">
+                <ul>
+                    <li className="nav__item"><a href="/">Menu Item 1</a></li>
+                    <li className="nav__item"><a href="/">Menu Item 2</a></li>
+                    <li className="nav__item"><a href="/">Menu Item 3</a></li>
+                    <li className="nav__item"><a href="/">Menu Item 4</a></li>
+                    <li className="nav__item"><SearchBar /></li>
+                </ul>
             </div>
-            <div className="nav__item">
-                Menu Item 2
-            </div>
-            <div className="nav__item">
-                Menu Item 3
-            </div>
-            <div className="nav__item">
-                Menu Item 4
-            </div>
-            <div className="nav__item">
-                <SearchBar />
-            </div>
-
         </nav>
     </header>
 );

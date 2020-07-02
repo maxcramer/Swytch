@@ -19,3 +19,7 @@
   flex-direction: column;
   margin: 0 auto;
 }
+
+#bellow__navbar {
+  margin-top: 60px;
+}
