@@ -5,6 +5,7 @@ import './App.css';
 
 import NavBar from '../src/components/NavBar/NavBar.jsx'
 import VideoContainer from '../src/components/VideoContainer/VideoContainer'
+import ProductInfo from '../src/components/ProductInfo/ProductInfo';
 
 class App extends Component {
 
@@ -17,6 +18,7 @@ class App extends Component {
           <NavBar />
           <div id="bellow__navbar">
             <VideoContainer />
+            <ProductInfo />
           </div>
         </div>
       </Router>
