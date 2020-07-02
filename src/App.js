@@ -18,9 +18,11 @@ class App extends Component {
         <div id="app__main">
           <NavBar />
           <div id="bellow__navbar">
-            <VideoContainer />
+            <div className="top__container">
+              <VideoContainer />
+              <CheckoutDetails />
+            </div>
             <ProductInfo />
-            <CheckoutDetails />
           </div>
         </div>
       </Router>

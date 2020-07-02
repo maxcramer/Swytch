@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 
+import './ProductInfo.css';
+
+
 class ProductInfo extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="product__info">
                 <p>UK Only (GBP Currency only)</p>
                 <p>£399</p>
                 <p>NOW 50% OFF!</p>
