@@ -14,7 +14,7 @@
     width: 35%;
     position: absolute;
     right: -19%;
-    top: 26%;
+    top: 27%;
     font-size: 27px;
 }
 
@@ -23,16 +23,17 @@
     font-size: 60px;
     margin-top: 25px;
     margin-bottom: 0;
+    margin-left: -0.5%;
 }
 
 #currency {
     margin: 0;
     font-size: 12px;
-    padding-left: 1.5%;
+    padding-left: 0;
 }
 
 #product__info-list {
-    padding-left: 1.5%;
+    padding-left: 0;
 }
 
 .product__info-list-item {
@@ -46,6 +47,6 @@
     #discount {
         width: 52%;
         right: 1%;
-        top: 86.5%;
+        top: 88%;
     }
 }

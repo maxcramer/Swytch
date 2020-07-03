@@ -19,8 +19,10 @@ class CheckoutDetails extends React.Component {
     render() {
         if(this.state.orderConfirmed) {
             return (
-                <div>
-                    <h3>Order Confirmed</h3>
+                <div id="confirm__order">
+                    <h2 id="confirm__title">Order Confirmed</h2>
+                    <p id="confirm__text">We are pedalling your order to you as fast as possible!</p>
+                    <img id="checkout__confirmed-image" src="https://www.swytchbike.com/wp-content/themes/stockholm-child/images/handlebar.gif" alt=""/>
                 </div>
             )
         } else {

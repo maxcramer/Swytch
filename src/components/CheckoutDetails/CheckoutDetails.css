@@ -22,6 +22,23 @@ input {
     margin-top: 10px !important;
 }
 
+#confirm__order {
+    margin: 0 auto;
+}
+
 #checkout__title {
     margin: 0;
+}
+
+#checkout__confirmed-image {
+    width: 100%;
+} 
+
+#confirm__title {
+    margin: 0;
+}
+
+#confirm__text {
+    margin: 0 0 10px 0;
+    font-size: 13px;
 }
