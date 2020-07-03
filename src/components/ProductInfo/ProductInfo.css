@@ -16,6 +16,7 @@
     right: -19%;
     top: 27%;
     font-size: 27px;
+    z-index: 10;
 }
 
 #price {
