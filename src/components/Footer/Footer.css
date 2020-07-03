@@ -19,6 +19,14 @@
     width: 45%;
 }
 
+#about-title {
+    font-size: 16px;
+}
+
+#quick__links-title {
+    font-size: 16px;
+}
+
 .quick__links-list {
     list-style: none;
     text-align: left;
@@ -30,6 +38,25 @@
     color: white;
 }
 
-.quick__links {
-    margin-right: 7rem;
+
+.copyright {
+    margin: 15px 10rem;
 }
+
+@media (max-width: 768px) {
+    .about-links {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    .copyright {
+        margin: 10px 30px;
+    }
+}
+
