@@ -1,16 +1,30 @@
 import React, {useEffect, useState} from 'react';
 
+let currentMessageIndex = 0;
+let messages = ['message1', 'message2', 'message3', 'message4'];  
+
 function Notifications () {
-    const [messages, setMessages] = useState()
-    
+    const [lastMessage, setLastMessages] = useState()
+
     useEffect(() => {
         setInterval(() => {
-            console.log("Hello every 3 seconds");
-        }, 3000)
+            setLastMessages(messages[currentMessageIndex]);
+
+            if(currentMessageIndex + 1 < messages.length) {
+                currentMessageIndex += 1;
+            } else {
+                currentMessageIndex = 0;
+            }
+            setTimeout(() => {
+                setLastMessages(null);
+            }, 3000)
+            console.log(setLastMessages);
+        }, 8000)
+        
     })
 
     return (
-        <p>notifications</p>
+        <p>{lastMessage}</p>
     )
 }
 
