@@ -1,0 +1,35 @@
+.footer__container {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.about-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10rem;
+    border-bottom: 1px solid white;
+}
+
+.about {
+    width: 45%;
+}
+
+.quick__links-list {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.quick__links-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.quick__links {
+    margin-right: 7rem;
+}
