@@ -1,4 +1,10 @@
+# Swytch Bike Code Test 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Time: 2 days
+
+### If more time available
+I would design the video layout differently in desktop. I would of had the top video the same size as it is now and the lower video much smaller, by using the thumbnail. I would then listen for a click on the thumbnail that would then swap the videos over. So the thumbnail one becomes the larger video on top and the previous larger video would shrink down and be a thumbnail below waiting for the next click, to swap back to the larger video. 
+
 
 ## Available Scripts
 
