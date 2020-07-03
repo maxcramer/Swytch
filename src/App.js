@@ -47,10 +47,10 @@ class App extends Component {
               <div className="right_panel">
                 <CrowdFunding />
                 <ProductInfo />
+                <Notifications />
                 <CheckoutDetails />
               </div>
             </div>
-            <Notifications />
           </div>
         </div>
       </Router>

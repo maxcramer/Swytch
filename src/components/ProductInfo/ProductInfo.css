@@ -1,6 +1,7 @@
 .product__info {
     display: flex;
     flex-direction: column;
+    height: 11rem;
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
     /* width: 70%; */
