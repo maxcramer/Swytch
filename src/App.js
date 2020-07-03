@@ -10,6 +10,7 @@ import CheckoutDetails from '../src/components/CheckoutDetails/CheckoutDetails';
 import CrowdFunding from '../src/components/CrowdFunding/CrowdFunding';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/BackDrop/BackDrop';
+import Notifications from './components/Notifications/Notifications';
 
 class App extends Component {
   state = {
@@ -49,6 +50,7 @@ class App extends Component {
                 <CheckoutDetails />
               </div>
             </div>
+            <Notifications />
           </div>
         </div>
       </Router>
