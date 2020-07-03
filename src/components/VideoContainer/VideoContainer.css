@@ -23,7 +23,7 @@
     width: 100%;
 } */
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
     .video__container {
         width: 100%;
         height: auto;
