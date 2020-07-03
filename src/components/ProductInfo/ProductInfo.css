@@ -40,3 +40,12 @@
     list-style-type: none;
     padding-bottom: 10px;
 }
+
+
+@media (max-width: 769px) {
+    #discount {
+        width: 52%;
+        right: 1%;
+        top: 86.5%;
+    }
+}

@@ -24,3 +24,13 @@
 #bellow__navbar {
   margin-top: 60px;
 }
+
+@media (max-width: 768px) {
+  .top__container {
+    flex-direction: column;
+  }
+
+  #bellow__navbar {
+    margin-top: 50px;
+  }
+}
