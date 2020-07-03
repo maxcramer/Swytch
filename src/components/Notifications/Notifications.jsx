@@ -20,7 +20,6 @@ function Notifications () {
             setTimeout(() => {
                 setLastMessages(null);
             }, 4000)
-            console.log(setLastMessages);
         }, 8000)
 
         clearInterval();
