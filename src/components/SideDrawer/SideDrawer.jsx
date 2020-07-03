@@ -14,7 +14,7 @@ const sideDrawer = props => {
     return (
         <nav className={drawerClasses}>
             <ul>
-                <li className="nav__item"><SearchBar /></li>
+                <li className="nav__item-search"><SearchBar /></li>
                 <li className="nav__item"><a href="/">Menu Item 1</a></li>
                 <li className="nav__item"><a href="/">Menu Item 2</a></li>
                 <li className="nav__item"><a href="/">Menu Item 3</a></li>
