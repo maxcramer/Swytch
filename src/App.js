@@ -13,7 +13,7 @@ import Backdrop from './components/BackDrop/BackDrop';
 import Notifications from './components/Notifications/Notifications';
 import Footer from './components/Footer/Footer';
 
-class App extends Component {
+class App extends Component { 
   state = {
     sideDrawerOpen: false
   }
